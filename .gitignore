@@ -1,1 +1,10 @@
+#
+#https://stackoverflow.com/questions/1470572/ignoring-any-bin-directory-on-a-git-project
+#
+#The way to ignore all directories called bin anywhere below the current level in a directory tree is with a .gitignore file with the pattern:
+#
+#bin/
+#
+#
 unused_pics/
+.DS_Store
