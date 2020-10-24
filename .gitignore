@@ -8,3 +8,9 @@
 #
 unused_pics/
 .DS_Store
+
+
+images/unused_pics/
+guests/unused_pics/
+*.DS_Store
+
