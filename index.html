@@ -67,7 +67,7 @@
 				}
 				}
 					if (inIframe() ){
-					setTimeout(function(){               var myEles=document.getElementsByTagName('a');for(var i=0;i<myEles.length;i++){if(myEles[i].innerHTML=='Home'){console.log('gotcha');myEles[i].setAttribute('class',"gotcha");myEles[i].href="https://www.youtube.com/playlist?list=PLVS9W_I7YQA9PWtrtXEZRjMFlt0QUUOvt"}else{}}                },2000);
+					setTimeout(function(){               var myEles=document.getElementsByTagName('a');for(var i=0;i<myEles.length;i++){if(myEles[i].innerHTML=='Home'){console.log('gotcha');myEles[i].setAttribute('class',"gotcha");myEles[i].href="https://www.youtube.com/playlist?list=PLVS9W_I7YQA9PWtrtXEZRjMFlt0QUUOvt";myEles[i].target="_blank";    }else{}}                },2000);
 					}
 					else{}
 
